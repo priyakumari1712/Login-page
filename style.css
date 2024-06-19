@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(232, 232, 232);
+}
+#form-wrapper{
+    width: 50%;
+    height: 60%;
+    display: flex;
+    background-color: #fff;
+    box-shadow: 10px 7px 20px rgb(165, 165, 165);
+
+}
+
+#left{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+#login-page {
+    /* display: flex; */
+    text-align: center;
+    font-family: montserrat;
+    padding: 50px;
+    width: 50%;
+    height: 100%;
+    background-color: #bfdbff;
+    
+}
+input{
+    font-size: 13px;
+    border-radius: 5px;
+    border: transparent;
+    padding: 10px 19px 10px 19px;
+    margin-top: 10px;
+}
+input[type="submit" i]{
+    margin-top: 20px;
+    width: 200px;
+    background-color: rgb(255, 148, 72);
+    color: #fff;
+}
+ #social-media{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 59%;
+
+    /* background-color: rgb(227, 113, 113); */
+}
+
+#social-media .circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 100%;
+    
+}
+#social-media .circle a{
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+
+::placeholder { /* Edge 12 -18 */
+    color:#4f538e;
+  }
